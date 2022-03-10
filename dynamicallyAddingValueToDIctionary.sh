@@ -9,6 +9,7 @@ do
 	test[ $key ]=$value
 	read -p "Press y to continue " answer
 	#sddffd
+	#this is mayank
 	answer="${answer,,}"
 	if [ $answer != 'y' ]
 	then
