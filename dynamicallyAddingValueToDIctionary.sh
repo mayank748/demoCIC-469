@@ -4,9 +4,11 @@ declare -A test
 
 while true
 do
-	
+	#pdsa
+#sdfdf
 	read -p "Enter the key of the dictionary " key
 	read -p "Enter the value " value
+#dsd
 	test[ $key ]=$value
 	read -p "Press y to continue " answer
 	answer="${answer,,}"
