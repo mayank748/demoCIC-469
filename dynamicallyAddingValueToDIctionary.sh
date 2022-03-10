@@ -4,7 +4,8 @@ declare -A test
 
 while true
 do
-	read -p "Enter the key " key
+	
+	read -p "Enter the key of the dictionary " key
 	read -p "Enter the value " value
 	test[ $key ]=$value
 	read -p "Press y to continue " answer
