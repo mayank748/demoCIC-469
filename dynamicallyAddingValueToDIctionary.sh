@@ -8,7 +8,6 @@ do
 	read -p "Enter the value " value
 	test[ $key ]=$value
 	read -p "Press y to continue " answer
-	#sddffd
 	answer="${answer,,}"
 	if [ $answer != 'y' ]
 	then
